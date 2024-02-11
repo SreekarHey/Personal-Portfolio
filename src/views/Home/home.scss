@@ -1,0 +1,78 @@
+.HOME-PAGE-CONTAINER {
+    display: grid;
+    place-content: center;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    .beautiful-text {
+        font-weight: 200;
+        letter-spacing: 0.1em;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .my-name {
+        font-size: 3.75rem;
+        font-weight: bold;
+        line-height: 1;
+        margin-bottom: 10px;
+        text-align: center;
+        .name {
+            font-size: 3.75rem;
+            font-weight: bold;
+
+            color: #5651e5;
+        }
+    }
+    .skill {
+        text-align: center;
+        font-size: 2.25rem;
+        line-height: 3rem;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .skills-list {
+        height: 50px; /* Adjust the height as per your preference */
+        overflow: hidden;
+        font-size: 1.875rem;
+        color: #5651e5;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .intro {
+        display: flex;
+        justify-content: center;
+
+        .intro-paragraph {
+            text-align: center;
+            // font-weight: 100;
+            width: 80%;
+        }
+    }
+    .links-container {
+        margin-top: 50px;
+        display: flex;
+        place-content: center;
+        .link {
+            display: grid;
+            place-content: center;
+            margin-right: 30px;
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            background-color: rgb(236, 240, 243);
+            box-shadow:
+                0 4px 8px 0 rgba(0, 0, 0, 0.1),
+                0 6px 8px 0 #9ca3af;
+            transition:
+                transform 0.4s ease-in-out,
+                box-shadow 0.4s ease-in-out;
+            cursor: pointer;
+            color: black;
+            &:hover {
+                transform: scale(1.02);
+                box-shadow: 0 12px 20px -6px #9ca3af;
+            }
+        }
+    }
+}

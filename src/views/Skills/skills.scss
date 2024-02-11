@@ -1,0 +1,64 @@
+.SKILL-PAGE-CONTAINER {
+    height: auto;
+    margin-bottom: 70px;
+    .skill-text {
+        color: #5651e5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
+    }
+    .what-i-do {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+
+    .mini-card-container {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100%; /* Adjust width to occupy full width of the container */
+        max-width: 300px; /* Set maximum width to maintain card size */
+        height: 100px;
+        border-radius: 20px;
+        background-color: rgb(236, 240, 243);
+        box-shadow:
+            0 3px 3px 0 rgba(0, 2, 2, 0),
+            0 12px 15px -6px #9ca3af;
+        transition:
+            transform 0.4s ease-in-out,
+            box-shadow 0.4s ease-in-out;
+        cursor: pointer;
+        color: black;
+        margin-bottom: 20px; /* Add margin bottom for spacing between cards */
+        &:hover {
+            transform: scale(1.01);
+            box-shadow: 0 10px 20px 0 #9ca3af;
+        }
+
+        .html-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50px; /* Adjust height as needed */
+            overflow: hidden;
+            img {
+                width: auto; /* Allow image to resize according to container */
+                height: 100%;
+                object-fit: cover;
+                margin-right: 30px;
+            }
+        }
+
+        .html-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 700;
+            padding: 20px; /* Add padding for spacing */
+        }
+    }
+}

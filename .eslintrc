@@ -1,0 +1,66 @@
+// {
+//     "env": {
+//         "browser": true,
+//         "es2021": true,
+//         "jest": true
+//     },
+//     "extends": [
+//         "eslint:recommended",
+//         "plugin:react/recommended",
+//         "plugin:prettier/recommended",
+//         "plugin:@typescript-eslint/recommended",
+//         "airbnb",
+//         "airbnb-typescript",
+//         "airbnb/hooks",
+//         "prettier",
+//         "plugin:jsx-a11y/recommended"
+//     ],
+//     "parser": "@typescript-eslint/parser",
+//     "parserOptions": {
+//         "ecmaFeatures": {
+//             "jsx": true
+//         },
+//         "ecmaVersion": 13,
+//         "project": "./tsconfig.json",
+//         "tsconfigRootDir": "../frontend",
+//         "sourceType": "module"
+//     },
+//     "plugins": ["react", "@typescript-eslint", "jsx-a11y", "eslint-plugin-no-inline-styles"],
+//     "rules": {
+//         "import/no-extraneous-dependencies": "off",
+//         "prettier/prettier": [
+//             "error",
+//             {
+//                 "endOfLine": "auto"
+//             }
+//         ],
+//         "react/react-in-jsx-scope": "off",
+//         "import/prefer-default-export": "off",
+//         "import/no-default-export": "off",
+//         "import/export": 0,
+//         "no-inline-styles/no-inline-styles": 2,
+//         "react/require-default-props": "off",
+//         "react/function-component-definition": [
+//             2,
+//             {
+//                 "namedComponents": "arrow-function",
+//                 "unnamedComponents": "arrow-function"
+//             }
+//         ],
+//         "@typescript-eslint/naming-convention": [
+//             "error",
+//             {
+//                 "selector": "variable",
+//                 "types": ["boolean"],
+//                 "format": null,
+//                 "prefix": ["is", "should", "has"]
+//             }
+//         ],
+//         "one-var": ["off"]
+//     },
+//     "settings": {
+//         "react": {
+//             "version": "18.2.0"
+//         }
+//     }
+// }

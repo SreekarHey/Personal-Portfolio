@@ -1,0 +1,47 @@
+.ABOUT-PAGE-CONTAINER {
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    .profile-picture-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+        margin-left: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+
+        box-shadow: 0 8px 8px 4px #4e83e0;
+        transition:
+            transform 0.4s ease-in-out,
+            box-shadow 0.4s ease-in-out;
+        cursor: pointer;
+
+        &:hover {
+            transform: scale(1.01);
+            box-shadow: 0 12px 20px -6px #4e83e0;
+        }
+    }
+    .about-me-paragraph {
+        .paragraph-style {
+            color: #5651e5;
+        }
+    }
+    .about-text {
+        color: #5651e5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
+    }
+    .wh0-i-am {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+}

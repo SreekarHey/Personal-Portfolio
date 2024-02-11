@@ -1,0 +1,179 @@
+.CONTACT-PAGE-CONTAINER {
+    height: auto;
+
+    .laptop-container {
+        display: flex;
+        justify-content: center;
+
+        margin-bottom: 20px; /* Add margin bottom for spacing */
+    }
+
+    .laptop-content {
+        border-radius: 15px;
+        border: 1px solid #e5e7eb;
+        background-color: rgb(236, 240, 243);
+        padding: 20px;
+
+        box-shadow:
+            0 3px 3px 0 rgba(0, 2, 2, 0),
+            0 12px 15px -6px #9ca3af;
+    }
+
+    .laptop-content img {
+        max-width: 100%;
+        width: 500px;
+        height: 250px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+        transition: 0.2s ease-in-out;
+        object-fit: fill;
+        border-radius: 20px;
+        &:hover {
+            transform: scale(1.03);
+            box-shadow: 0 8px 12px -3px black;
+        }
+    }
+
+    .name-below-laptop h4 {
+        margin-bottom: 5px;
+    }
+
+    .name-below-laptop p {
+        margin-bottom: 20px;
+    }
+
+    .available-text,
+    .contact-text {
+        margin-bottom: 20px;
+    }
+
+    .contact-links-container {
+        display: flex;
+        justify-content: center;
+        height: 200px;
+    }
+
+    .contact-links-container .link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        margin-right: 30px;
+        border-radius: 50%;
+        background-color: rgb(236, 240, 243);
+        box-shadow:
+            0 4px 8px 0 rgba(0, 0, 0, 0.1),
+            0 6px 8px 0 #9ca3af;
+        transition:
+            transform 0.4s ease-in-out,
+            box-shadow 0.4s ease-in-out;
+        cursor: pointer;
+        color: black;
+        margin-right: 10px;
+    }
+
+    .contact-links-container .link:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 12px -3px #9ca3af;
+    }
+
+    .contact-text {
+        color: #5651e5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
+    }
+    .get-in-touch {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .feel-free-text {
+        line-height: 1.25rem;
+        font-weight: 600;
+        color: gray;
+        margin-bottom: 30px;
+    }
+
+    .forms-container {
+        .form-content {
+            border-radius: 15px;
+            border: 1px solid #e5e7eb;
+            background-color: rgb(236, 240, 243);
+            padding: 20px;
+            height: 700px;
+            box-shadow:
+                0 3px 3px 0 rgba(0, 2, 2, 0),
+                0 12px 15px -6px #9ca3af;
+        }
+    }
+
+    // .laptop-container {
+    //     height: auto;
+    //     border-radius: 15px;
+    //     border: 1px solid #e5e7eb;
+    //     background-color: rgb(236, 240, 243);
+    //     display: flex;
+    //     flex-direction: column; /* Change to column layout */
+    //     align-items: center; /* Center items horizontally */
+    //     text-align: center;
+    //     margin-top: 20px;
+
+    //     box-shadow:
+    //         0 3px 3px 0 rgba(0, 2, 2, 0),
+    //         0 12px 15px -6px #9ca3af;
+
+    //     img {
+    //         max-height: 100%;
+    //         max-width: 100%; /* Ensure image stays within container */
+    //         border-radius: 20px;
+    //         margin: 15px;
+    //     }
+    // }
+
+    // .contact-links-container {
+    //     margin-top: 20px; /* Adjust margin as needed */
+    //     display: flex;
+    //     flex-wrap: wrap; /* Allow links to wrap to the next line if necessary */
+    //     justify-content: center; /* Center links horizontally */
+    //     gap: 20px; /* Add space between links */
+    //     margin-bottom: 50px;
+    // }
+
+    // .link {
+    //     width: 60px;
+    //     height: 60px;
+    //     border-radius: 50%;
+    //     background-color: rgb(236, 240, 243);
+    //     box-shadow:
+    //         0 4px 8px 0 rgba(0, 0, 0, 0.1),
+    //         0 6px 8px 0 #9ca3af;
+    //     transition:
+    //         transform 0.4s ease-in-out,
+    //         box-shadow 0.4s ease-in-out;
+    //     cursor: pointer;
+    //     color: black;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    // .link:hover {
+    //     transform: scale(1.02);
+    //     box-shadow: 0 12px 20px -6px #9ca3af;
+    // }
+
+    // .available-text {
+    //     line-height: 1.25rem;
+    //     font-weight: 600;
+    //     letter-spacing: 0.1rem;
+    //     color: grey;
+    //     margin: 20px 0; /* Adjust margin as needed */
+    // }
+
+    // .name-below-laptop {
+    //     margin-bottom: 20px;
+    // }
+}

@@ -1,0 +1,13 @@
+@import '~bootstrap/scss/bootstrap';
+@import './views/Login/login.scss';
+@import './views/Home/home.scss';
+@import './shared/components/Header/header.scss';
+@import './views/About/about.scss';
+@import './views/Contact/contact.scss';
+@import './views/Projects/project.scss';
+@import './views/Skills/skills.scss';
+
+.App {
+    height: auto;
+    background: rgb(236, 240, 243);
+}
