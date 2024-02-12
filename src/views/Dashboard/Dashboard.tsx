@@ -37,9 +37,9 @@ export const Dashboard = () => {
             <div id="SKILLS">
                 <Skills />
             </div>
-            {/* <div id="PROJECTS">
+            <div id="PROJECTS">
                 <Project />
-            </div> */}
+            </div>
             <div id="CONTACT">
                 <Contact />
             </div>

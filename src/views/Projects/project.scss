@@ -1,3 +1,49 @@
 .PROJECT-COMPONENT {
-    height: 100vh;
+    height: auto;
+    margin-bottom: 200px;
+    .contact-text {
+        color: #5651e5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
+    }
+    .design-carosal {
+        border-radius: 15px;
+        border: 1px solid #e5e7eb;
+        background-color: rgb(236, 240, 243);
+        padding: 10px;
+        box-shadow: 3px 3px 3px 0 rgba(0, 2, 2, 0), 0 12px 15px -6px #9ca3af;
+    }
+    .carousel-content {
+        .carousel {
+            .carousel-inner {
+                .carousel-item {
+                    img {
+                        top: 0;
+                        left: 0;
+                        filter: blur(3px); /* Adds a blur effect */
+                        z-index: -1; /* Moves the image behind other content */
+                    }
+                }
+            }
+        }
+    }
+    .get-in-touch {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .feel-free-text {
+        line-height: 1.25rem;
+        font-weight: 600;
+        color: gray;
+        margin-bottom: 30px;
+    }
+    .carousel-content {
+        img {
+            object-fit: fill;
+            z-index: -1;
+        }
+    }
 }
