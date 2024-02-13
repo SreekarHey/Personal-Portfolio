@@ -38,6 +38,7 @@ const Login = () => {
 
     return (
         <div className="LOGIN-COMPONENT">
+            <div className="background-image"></div>
             <Col className="my-form-container ">
                 <div className="my-form bg-white ">
                     <h2>Login</h2>
