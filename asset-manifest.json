@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Personal-Portfolio/static/css/main.927b1a3e.css",
+    "main.css": "/Personal-Portfolio/static/css/main.1b45fcce.css",
     "main.js": "/Personal-Portfolio/static/js/main.b1d08ad3.js",
     "static/media/Mylogo.png": "/Personal-Portfolio/static/media/Mylogo.2c498e59da4d60b8cf02.png",
     "static/media/Sreekar-Profile-Picture-1.jpeg": "/Personal-Portfolio/static/media/Sreekar-Profile-Picture-1.bab42358b2fa8281c10f.jpeg",
     "index.html": "/Personal-Portfolio/index.html",
-    "main.927b1a3e.css.map": "/Personal-Portfolio/static/css/main.927b1a3e.css.map",
+    "main.1b45fcce.css.map": "/Personal-Portfolio/static/css/main.1b45fcce.css.map",
     "main.b1d08ad3.js.map": "/Personal-Portfolio/static/js/main.b1d08ad3.js.map"
   },
   "entrypoints": [
-    "static/css/main.927b1a3e.css",
+    "static/css/main.1b45fcce.css",
     "static/js/main.b1d08ad3.js"
   ]
 }
