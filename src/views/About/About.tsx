@@ -70,10 +70,7 @@ export const About = () => {
                     </div>
                 </Col>
                 <Col md={6} className="profile-picture-container">
-                    <img
-                        alt="profile-picture"
-                        className="profile-picture"
-                        src="assests/Sreekar-Profile-Picture-1.jpeg"></img>
+                    <div className="profile-picture" />
                 </Col>
             </Row>
         </div>

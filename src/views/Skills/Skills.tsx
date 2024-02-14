@@ -20,9 +20,9 @@ export const Skills = () => {
         },
         {
             name: 'REACT JS',
-            imageUrl: 'assests/download-2.png'
+            imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png'
         },
-        { name: 'NEXT JS', imageUrl: 'assests/NEXTJS.png' },
+        { name: 'NEXT JS', imageUrl: 'https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png' },
         {
             name: 'TAILWIND CSS',
             imageUrl:

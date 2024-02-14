@@ -40,9 +40,7 @@ export const Header = () => {
                 expand="lg"
                 className={`bg-body-tertiary navbar ${scrolled ? 'scrolled' : ''}`}>
                 <Navbar.Brand href="/dashboard">
-                    <div className="my-logo">
-                        <img alt="Logo" src="/assests/Screenshot 2024-02-06 010553.png"></img>
-                    </div>
+                    <div className="my-logo"></div>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

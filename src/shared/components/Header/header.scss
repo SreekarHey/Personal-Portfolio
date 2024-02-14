@@ -2,13 +2,25 @@
     .navbar-brand {
         margin-left: 4rem;
     }
+    // .my-logo {
+    //     img {
+    //         mix-blend-mode: darken;
+    //         transition: transform 0.3s ease-in-out;
+    //         &:hover {
+    //             transform: scale(1.1);
+    //         }
+    //     }
+    // }
     .my-logo {
-        img {
-            mix-blend-mode: darken;
-            transition: transform 0.3s ease-in-out;
-            &:hover {
-                transform: scale(1.1);
-            }
+        /* Set the background image and adjust other styles as needed */
+        background-image: url('../../../Images/Mylogo.png');
+        background-repeat: no-repeat;
+        background-size: contain; /* Adjust background size if necessary */
+        width: 150px; /* Set width and height if necessary */
+        height: 60px;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+            transform: scale(1.1);
         }
     }
     .nav-link {

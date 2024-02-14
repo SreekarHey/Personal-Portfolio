@@ -319,11 +319,6 @@ export const Project = () => {
                                     <Card.Text>
                                         <a href="https://cloudapps.estuate.com/#/login">Check out for more info</a>
                                     </Card.Text>
-                                    <Card.Img
-                                        src="assests/EstuateLogo.png"
-                                        alt="Card image"
-                                        style={{ width: '18rem', height: '6rem' }}
-                                    />
                                 </Card.ImgOverlay>
                             </Card>
                         </Carousel.Item>

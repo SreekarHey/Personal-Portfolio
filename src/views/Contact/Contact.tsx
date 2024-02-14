@@ -1,7 +1,7 @@
 import { useFormik } from 'formik';
 import { useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
-import { Github, Linkedin, TelephoneOutbound, Twitter, Whatsapp } from 'react-bootstrap-icons';
+import { ChevronDoubleUp, Github, Linkedin, TelephoneOutbound, Twitter, Whatsapp } from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom';
 import * as Yup from 'yup';
 
@@ -27,6 +27,13 @@ export const Contact = () => {
             console.log(values);
         }
     });
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
     return (
         <div className="CONTACT-PAGE-CONTAINER">
             <Row>
@@ -185,6 +192,11 @@ export const Contact = () => {
                         </Col>
                     </Row>
                 </Col>
+            </Row>
+            <Row style={{ display: 'flex', justifyContent: 'center' }}>
+                <div className="scroll-up">
+                    <ChevronDoubleUp onClick={scrollToTop} size={30} />
+                </div>
             </Row>
         </div>
     );
