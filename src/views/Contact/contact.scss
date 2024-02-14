@@ -1,50 +1,79 @@
 .CONTACT-PAGE-CONTAINER {
     height: auto;
-
-    .laptop-container {
-        display: flex;
-        justify-content: center;
-
-        margin-bottom: 20px; /* Add margin bottom for spacing */
+    .contact-text {
+        margin-bottom: 20px;
+        color: #5651e5;
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        letter-spacing: 0.1em;
     }
-
-    .laptop-content {
+    .get-in-contact {
+        margin-top: 40px;
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .get-in-touch {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+    }
+    .feel-free-text {
+        line-height: 1.25rem;
+        font-weight: 600;
+        color: gray;
+        margin-bottom: 30px;
+    }
+    .main-container {
         border-radius: 15px;
         border: 1px solid #e5e7eb;
         background-color: rgb(236, 240, 243);
         padding: 20px;
-
+        height: auto;
         box-shadow: 0 3px 3px 0 rgba(0, 2, 2, 0), 0 12px 15px -6px #9ca3af;
-    }
+        .laptop-content img {
+            max-width: 100%;
+            width: 500px;
+            height: 250px;
+            border-radius: 15px;
+            margin-bottom: 15px;
+            transition: 0.2s ease-in-out;
+            object-fit: fill;
+            border-radius: 20px;
+            &:hover {
+                transform: scale(1.03);
+                box-shadow: 0 8px 12px -3px black;
+            }
+        }
 
-    .laptop-content img {
-        max-width: 100%;
-        width: 500px;
-        height: 250px;
-        border-radius: 15px;
-        margin-bottom: 15px;
-        transition: 0.2s ease-in-out;
-        object-fit: fill;
-        border-radius: 20px;
-        &:hover {
-            transform: scale(1.03);
-            box-shadow: 0 8px 12px -3px black;
+        .name-below-laptop {
+            h4 {
+                color: #5651e5;
+                font-size: 2.25rem;
+                line-height: 1.75rem;
+                letter-spacing: 0.1em;
+            }
+            p {
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                letter-spacing: 0.1em;
+            }
+            span {
+                font-size: 1.25rem;
+                line-height: 1.75rem;
+                letter-spacing: 0.1em;
+            }
         }
     }
 
-    .name-below-laptop h4 {
-        margin-bottom: 5px;
-    }
-
-    .name-below-laptop p {
-        margin-bottom: 20px;
-    }
     .scroll-up {
         display: flex;
         justify-content: center;
         align-items: center;
 
-        margin: 50px 0 50px 0;
+        margin: 0 0 50px 0;
         border-radius: 50%;
         height: 80px;
         width: 80px;
@@ -65,22 +94,17 @@
         }
     }
     .available-text,
-    .contact-text {
-        margin-bottom: 20px;
-    }
-
     .contact-links-container {
         display: flex;
         justify-content: center;
-        height: 200px;
     }
 
     .contact-links-container .link {
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 70px;
-        height: 70px;
+        width: 80px;
+        height: 80px;
         margin-right: 30px;
         border-radius: 50%;
         background-color: rgb(236, 240, 243);
@@ -96,26 +120,8 @@
         box-shadow: 0 8px 12px -3px #9ca3af;
     }
 
-    .contact-text {
-        color: #5651e5;
-        font-size: 1.25rem;
-        line-height: 1.75rem;
-        letter-spacing: 0.1em;
-    }
-    .get-in-touch {
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-        font-weight: 700;
-        margin-bottom: 15px;
-    }
-    .feel-free-text {
-        line-height: 1.25rem;
-        font-weight: 600;
-        color: gray;
-        margin-bottom: 30px;
-    }
-
     .forms-container {
+        margin: 0 0 100px 0;
         .form-content {
             border-radius: 15px;
             border: 1px solid #e5e7eb;
