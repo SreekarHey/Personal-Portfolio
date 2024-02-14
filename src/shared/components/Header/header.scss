@@ -2,15 +2,7 @@
     .navbar-brand {
         margin-left: 4rem;
     }
-    // .my-logo {
-    //     img {
-    //         mix-blend-mode: darken;
-    //         transition: transform 0.3s ease-in-out;
-    //         &:hover {
-    //             transform: scale(1.1);
-    //         }
-    //     }
-    // }
+
     .my-logo {
         /* Set the background image and adjust other styles as needed */
         background-image: url('../../../Images/Mylogo.png');
@@ -25,6 +17,8 @@
     }
     .nav-link {
         margin-right: 2rem;
+        display: flex;
+        justify-content: center;
         transition: transform 0.3s ease-in-out !important;
         &:hover {
             color: #4e83e0;
@@ -33,8 +27,8 @@
             transform: scale(1.01);
         }
     }
-    height: 100%;
-    transition: box-shadow 0.3s ease-in-out;
+    height: auto;
+
     background-color: rgb(236, 240, 243) !important;
     &.scrolled {
         box-shadow: 0 6px 10px 0 rgba(0, 0, 1, 0.3), 0 2px 3px 0 rgb(236, 240, 243);
